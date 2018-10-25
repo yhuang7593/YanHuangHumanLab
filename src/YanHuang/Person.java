@@ -1,4 +1,6 @@
-public class Person {
+package YanHuang;
+
+public class Person{
 
         private String firstName, familyName;
         public Person(String firstName, String familyName)
