@@ -1,6 +1,6 @@
 package YanHuang;
 
-public class Person{
+public abstract class Person{
 
         private String firstName, familyName;
         public Person(String firstName, String familyName)
@@ -25,6 +25,7 @@ public class Person{
         {
             this.familyName = familyName;
         }
+        public int getGPA(int GPA);
 
         public boolean equals(Person person)
         {
